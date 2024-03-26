@@ -32,7 +32,6 @@ main{
 }
 .page-one{
     height: calc(100vh - 50px);
-    width: 100%;
 }
 
 .page-one .carousel-item{
@@ -255,7 +254,6 @@ footer{
 }
 .ftr_social_media {
     height: fit-content;
-    border-bottom: 1px solid rgb(88, 88, 88);
 }
 
 .ftr_social_media svg{
@@ -283,7 +281,7 @@ footer li{
 }
 
 footer input{
-    font-weight: bold;
+    color: white;
     font-size: 14px;
     height: 35px;
     width: 100%;
