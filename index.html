@@ -1,0 +1,816 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Xiaomi static website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/ico" href="Images/favicon.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+        <div class="row">
+            <div class="col-12">
+              <!-- navbar -->
+            <nav class="navbar navbar-expand-lg bg-white fixed-top">
+              <div class="container">
+                <!-- logo -->
+                <a class="image-fluid" href="#"><img src="Images/xiaomi_logo.png" width="35px" alt=""></a>
+
+                 <!-- search bar -->
+                 <div class="d-flex justify-content-center">
+                  <div class="collapse offcanvas-top" id="navbarsearch" style="position: absolute; top:60px;">
+                    <div>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                 </div>
+
+                <div class="d-flex align-items-center">
+                  <!-- side bar -->
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <!-- sign in option -->
+                      <div class="offcanvas_sign d-lg-none">
+                        <a href="#" class="d-flex align-items-center justify-content-center">
+                          <img src="Images/profile-icon.png" width="40px" alt="img" style="padding-right: 10px;">
+                          <div class="sign_text d-flex justify-content-between" style="width: auto;">
+                            <span>Sign in/ Sign up</span>
+                            <span>></span>
+                          </div>
+                        </a>
+                      </div>
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Store</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Phone</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">TV & Smart Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Tablet</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">LifeStyle</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Discover</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Support</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                    <!-- toggle button search bar-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsearch" aria-controls="navbarsearch" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="Images/search-icon.png"  width="20px" alt="">
+                  </button>
+
+                  <!-- cart -->
+                  <a href="#" ><img src="Images/cart-icon.png" width="20px" alt=""></a>
+
+                  <!-- toggle btn side bar-->
+                  <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="width: 20px; "></span>
+                  </button>
+
+                </div>
+              </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- main start -->
+    <main>
+      <!-- page one start -->
+      <div class="page-one">
+        <div class="col-12">
+          <div id="carouselExampleAutoplaying" class="carousel slide H-100" data-bs-ride="carousel">
+            <div class="carousel-inner" style="height: 100%;">
+              <div class="carousel-item active">
+                <div class="carousel-item-one">
+                  <h2>Smart TV</h2>
+                  <h6>
+                    Experiance 4k with latest smart TV
+                  </h6>
+                  <button class="btn btn-dark">Learn More</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-two">
+                  <h2>Tablets</h2>
+                  <h6>
+                    Built for work, Designed for Ease
+                  </h6>
+                  <button class="btn btn-dark">Learn More</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="carousel-item-three image-fluid">
+                  <h2>Life Style Product</h2>
+                  <h6>
+                    Connect.Control.Conquer
+                  </h6>
+                  <button class="btn btn-dark">Learn More</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- page one end -->
+
+      <!-- page two start -->
+      <div class="page-two">
+        <div class="d-flex align-items-center flex-column">
+          <div class="heading">
+            <h2 class="p-4 text-center "><b>Featured Products</b></h2>
+          </div>
+          <div class="p-two-product-names d-flex">
+            <a href="#p-two-phone" ><h6>Phone</h6></a>
+            <a href="#p-two-prod-TV"><h6>Smart TV</h6></a>
+            <a href="#p-two-prod-tabs"><h6>Tablets</h6></a>
+            <a href="#p-two-prod-lifestyle"><h6>Lifestyle</h6></a>
+          </div>
+          <div class="common-page-item-wrapper">
+            <div class="common-page-products-container">
+              <!-- Phone -->
+              <div class="p-two-products" id="p-two-phone">
+                <!-- top products -->
+                <a href="#" class="p-two-product-top-a">
+                  <div class="d-flex flex-column align-items-center flex-md-row p-two-product-top">
+                    <!-- main photo -->
+                    <div class="p-two-product-image">
+                      <img class="w-100" src="Images/page-two/018351c9b960efb909a690b1ddcb143e.jpg" width="100%" alt="product-image">
+                    </div>
+                    <div class="p-two-product-title p-4">
+                      <h3>Redmi Note 13 Pro+</h3>
+                        <p><b>Flagship IP68 Protection</b></p>
+                      <div class="btn_container"><button>Learn More</button></div>
+                    </div>
+                  </div>
+                </a>
+                <!-- botom products -->
+                <div class="p-two-product-bottom pt-3">
+                  <div class="d-flex row">
+                    <!-- one -->
+                    <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                      <a href="#">
+                        <div class="p-two-btm-product-conatainer">
+                          <div class="p-two-btm-product-image">
+                            <img src="Images/page-two/dd7c065a86de0eb8b95d3b7558f0c89f.jpg" alt="product-image">
+                          </div>
+                          <h6>Redmi Note 13 Pro</h6>
+                          <div class="btn_hide_text">
+                            <p class="hide-text"><b>From ₹25,999 <del>₹28,999</del></b></p>
+                            <div class="btn_container"><button>Learn More</button></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- two -->
+                    <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                      <a href="#">
+                        <div class="p-two-btm-product-conatainer">
+                          <div class="p-two-btm-product-image">
+                            <img src="Images/page-two/8ade55a6bda2f134c47bda012023c84d.jpg" alt="product-image">
+                          </div>
+                          <h6>Redmi Note 13 5G</h6>
+                          <div class="btn_hide_text">
+                            <p class="hide-text"><b>From ₹17,999 <del>₹20,999</del></b></p>
+                            <div class="btn_container"><button>Learn More</button></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- three -->
+                    <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                      <a href="#">
+                        <div class="p-two-btm-product-conatainer">
+                          <div class="p-two-btm-product-image">
+                            <img src="Images/page-two/7773c57fe3ff6320ba3d11cd0f2b7868.jpg" alt="product-image">
+                            </div>
+                          <h6>Redmi 13C 5G</h6>
+                          <div class="btn_hide_text">
+                            <p class="hide-text"><b>From ₹10,999 <del>₹13,999</del></b></p>
+                            <div class="btn_container"><button>Learn More</button></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                    <!-- four -->
+                    <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                      <a href="#">
+                        <div class="p-two-btm-product-conatainer">
+                          <div class="p-two-btm-product-image">
+                            <img src="Images/page-two/538331d5e0ae247b68959bcaf515b2a7.jpg" alt="product-image">
+                            </div>
+                          <h6>Redmi 13C</h6>
+                          <div class="btn_hide_text">
+                            <p class="hide-text"><b>From ₹7,799 <del>₹11,999</del></b></p>
+                            <div class="btn_container"><button>Learn More</button></div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- TV -->
+              <div class="p-two-products" id="p-two-prod-TV">
+                <div class="p-two-products" id="p-two-phone">
+                  <!-- top products -->
+                  <a href="#" class="p-two-product-top-a">
+                    <div class="d-flex flex-column align-items-center flex-md-row p-two-product-top">
+                      <!-- main photo -->
+                      <div class="p-two-product-image">
+                        <img class="w-100" src="Images/page-two/9d37076afc399bdb9088a221aa100cf2.jpg" width="100%" alt="product-image">
+                      </div>
+                      <div class="p-two-product-title p-4">
+                        <h3>Xiaomi TV A Series</h3>
+                          <p><b>Premium Metal Bezel-less Design</b></p>
+                        <div class="btn_container"><button>Learn More</button></div>
+                      </div>
+                    </div>
+                  </a>
+                  <!-- botom products -->
+                  <div class="p-two-product-bottom pt-3">
+                    <div class="d-flex row">
+                      <!-- one -->
+                      <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                        <a href="#">
+                          <div class="p-two-btm-product-conatainer">
+                            <div class="p-two-btm-product-image">
+                              <img src="Images/page-two/fcb83bf636c0acb4a5aa37f3d3a9bf03.jpg" alt="product-image">
+                            </div>
+                            <h6>Redmi Smart Fire TV 4K 43</h6>
+                            <div class="btn_hide_text">
+                              <p class="hide-text"><b>From ₹24,999 <del>₹42,999</del></b></p>
+                              <div class="btn_container"><button>Learn More</button></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- two -->
+                      <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                        <a href="#">
+                          <div class="p-two-btm-product-conatainer">
+                            <div class="p-two-btm-product-image">
+                              <img src="Images/page-two/7007af46ea3cd687996b821b388d0780.png" alt="product-image">
+                            </div>
+                            <h6>Xiaomi Smart TV X 34 (108 cm) 2023 Edition</h6>
+                            <div class="btn_hide_text">
+                              <p class="hide-text"><b>From ₹26,999 <del>₹42,999</del></b></p>
+                              <div class="btn_container"><button>Learn More</button></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- three -->
+                      <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                        <a href="#">
+                          <div class="p-two-btm-product-conatainer">
+                            <div class="p-two-btm-product-image">
+                              <img src="Images/page-two/pms_1681292448.74477327.jpg" alt="product-image">
+                              </div>
+                            <h6>Xiaomi Smart TV X Pro 1.08m(43)</h6>
+                            <div class="btn_hide_text">
+                              <p class="hide-text"><b>From ₹32,999 <del>₹49,999</del></b></p>
+                              <div class="btn_container"><button>Learn More</button></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                      <!-- four -->
+                      <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                        <a href="#">
+                          <div class="p-two-btm-product-conatainer">
+                            <div class="p-two-btm-product-image">
+                              <img src="Images/page-two/pms_1663152565.22081554.jpg" alt="product-image">
+                              </div>
+                            <h6>Xiaomi Smart TV X43(108cm)</h6>
+                            <div class="btn_hide_text">
+                              <p class="hide-text"><b>From ₹26,999 <del>₹42,999</del></b></p>
+                              <div class="btn_container"><button>Learn More</button></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-two-products" id="p-two-prod-tabs">
+                <!-- tablets -->
+                <div class="p-two-products" id="p-two-prod-TV">
+                  <div class="p-two-products" id="p-two-phone">
+                    <!-- top products -->
+                    <a href="#" class="p-two-product-top-a">
+                      <div class="d-flex flex-column align-items-center flex-md-row p-two-product-top">
+                        <!-- main photo -->
+                        <div class="p-two-product-image">
+                          <img class="w-100" src="Images/page-two/tablets/fe65747f590a038d62f0c6560bda7552.jpg" width="100%" alt="product-image">
+                        </div>
+                        <div class="p-two-product-title p-4">
+                          <h3>Xiaomi Pad 6</h3>
+                            <p><b>11-inch Billion Colour Display</b></p>
+                          <div class="btn_container"><button>Learn More</button></div>
+                        </div>
+                      </div>
+                    </a>
+                    <!-- botom products -->
+                    <div class="p-two-product-bottom pt-3">
+                      <div class="d-flex row">
+                        <!-- one -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/tablets/06d0b215e977ecc7dcdbe674d84d2031.png" alt="product-image">
+                              </div>
+                              <h6>Redmi Pad</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹12,999 <del>₹21,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- two -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/tablets/78d6330c59f4362ec9acee419592968c.png" alt="product-image">
+                              </div>
+                              <h6>Xiaomi Pad 6 Cover</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹1,499 <del>₹2,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- three -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/tablets/3d2e72c017654b2dbb6be25343c1c69c.png" alt="product-image">
+                                </div>
+                              <h6>Xiaomi Pad 6 Keyboard</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹4,999 <del>₹7,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- four -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/tablets/a2f6eb051ada73b3c31b78c4ef75397c.png" alt="product-image">
+                                </div>
+                              <h6>Xiaomi Smart Pen(2nd Generation)</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹5,999 <del>₹8,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="p-two-products" id="p-two-prod-lifestyle">
+                <!-- lifestyle -->
+                <div class="p-two-products" id="p-two-prod-TV">
+                  <div class="p-two-products" id="p-two-phone">
+                    <!-- top products -->
+                    <a href="#" class="p-two-product-top-a">
+                      <div class="d-flex flex-column align-items-center flex-md-row p-two-product-top">
+                        <!-- main photo -->
+                        <div class="p-two-product-image">
+                          <img class="w-100" src="Images/page-two/lifestyle/ef0c5c12f34d29b2b9a779de159c8152.jpg" width="100%" alt="product-image">
+                        </div>
+                        <div class="p-two-product-title p-4">
+                          <h3>Redmi Watch 3 Active</h3>
+                            <p><b>5 ATM Waterproof</b></p>
+                          <div class="btn_container"><button>Learn More</button></div>
+                        </div>
+                      </div>
+                    </a>
+                    <!-- botom products -->
+                    <div class="p-two-product-bottom pt-3">
+                      <div class="d-flex row">
+                        <!-- one -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/lifestyle/0bf0a8d229407ef7aaef1225ad55a969.png" alt="product-image">
+                              </div>
+                              <h6>Redmi Buds 5</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹2,999 <del>₹4,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- two -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/lifestyle/d0fef80da497fd605b24996869d92616.png" alt="product-image">
+                              </div>
+                              <h6>Xiaomi Grooming Kit Pro</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹4,499 <del>₹4,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- three -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/lifestyle/pms_1600435565.39326952.png" alt="product-image">
+                                </div>
+                              <h6>2000mAh Mi Power Bank 3i</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹2,149 <del>₹3,499</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                        <!-- four -->
+                        <div class="col-6 col-md-3 p-two-product-bottom-hover btn_hover_container" >
+                          <a href="#">
+                            <div class="p-two-btm-product-conatainer">
+                              <div class="p-two-btm-product-image">
+                                <img src="Images/page-two/lifestyle/ab8d5c0a79f467c9c7fb66329f12c501.jpg" alt="product-image">
+                                </div>
+                              <h6>Mi 360 Home Security Camera 2K Pro</h6>
+                              <div class="btn_hide_text">
+                                <p class="hide-text"><b>From ₹3,999 <del>₹5,999</del></b></p>
+                                <div class="btn_container"><button>Learn More</button></div>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- page two end -->
+
+      <!-- page three start -->
+      <div class="page-three">
+        <div class="d-flex align-items-center flex-column">
+          <div class="d-flex align-items-center">
+            <div class="heading">
+              <h2 class="p-4 text-center "><b>Exclusive Offers</b></h2>
+            </div>
+            <div  class="common-page-arrows d-flex">
+              <a class="btn" href="#area-1"> &lt; </a>
+              <a class="btn" href="#area-2"> &gt; </a>
+            </div>
+          </div>
+          <div class="common-page-item-wrapper">
+            <div class="common-page-products-container">
+              <!-- AREA ONE -->
+              <div class="row area" id="area-1">
+                <!-- one -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/a2db114bfb3eb919b734b44b80d2933a.jpg" alt="product-image">
+                    </div>
+                  <h6>Smart Bundles</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Unlock Unbeatable Deals</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+                <!-- two -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/872bcb906dec5d442ca9a961a835a938.jpg" alt="product-image">
+                    </div>
+                  <h6>Bestselling Smartphones</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Elevate Your SmartPhone Experience</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+                <!-- three -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/d4bb56bb3e434c120e028f282bbe4418.jpg" alt="product-image">
+                    </div>
+                  <h6>Xiaomi Smart Home Products</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Smarter Technology, Smarter Living</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+              </div>
+              <!-- AREA TWO -->
+              <div class="row area" id="area-2">
+                <!-- one -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/a2db114bfb3eb919b734b44b80d2933a.jpg" alt="product-image">
+                    </div>
+                  <h6>Smart Bundles</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Unlock Unbeatable Deals</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+                <!-- two -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/872bcb906dec5d442ca9a961a835a938.jpg" alt="product-image">
+                    </div>
+                  <h6>Bestselling Smartphones</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Elevate Your SmartPhone Experience</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+                <!-- three -->
+                <div class="col-12 col-md-4 container-fluid btn_hover_container">
+                  <a href="#"><div class="image-common-container">
+                    <img src="Images/page-three/d4bb56bb3e434c120e028f282bbe4418.jpg" alt="product-image">
+                    </div>
+                  <h6>Xiaomi Smart Home Products</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Smarter Technology, Smarter Living</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- page three end -->
+
+      <!-- page four start -->
+      <div class="page-four">
+        <div class="d-flex align-items-center flex-column">
+          <div class="d-flex align-items-center">
+            <div class="heading">
+              <h2 class="p-4 text-center "><b>Explore Xiaomi</b></h2>
+            </div>
+          </div>
+          <div class="four-page-item-wrapper">
+            <div class="container-fluid" >
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="height: fit-content;">
+                <div class="carousel-inner" >
+                  <div class="carousel-item active btn_hover_container">
+                    <a href="#"><div class="image-common-container">
+                    <img src="Images/page-four/67f6f95857019683ed6a64c321c8c2bf.jpg" class=" w-100" alt="...">
+                    </div>
+                  <h6>Xiaomi Smart Home Products</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Smarter Technology, Smarter Living</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div>
+                  </a>
+                  </div>
+                  <div class="carousel-item btn_hover_container">
+                    <a href="#"><div class="image-common-container">
+                      <img src="Images/page-four/c3fc8ff811759c50a01ce138d90a7e05.jpg" class=" w-100" alt="...">
+                    </div>
+                  <h6>Xiaomi Smart Home Products</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Smarter Technology, Smarter Living</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div>
+                  </a>
+                  </div>
+                  <div class="carousel-item btn_hover_container">
+                    <a href="#"><div class="image-common-container">
+                      <img src="Images/page-four/49f3b8d0fbf0f8c9fef88ea2f9ac4a7a.jpg" class=" w-100" alt="...">
+                    </div>
+                  <h6>Xiaomi Smart Home Products</h6>
+                  <div class="btn_hide_text">
+                    <p class="hide-text">Smarter Technology, Smarter Living</p>
+                    <div class="btn_container"><button>Learn More</button></div>
+                  </div>
+                  </a>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- page four end -->
+
+      <!-- page five start -->
+      <div class="page-four">
+        <div class="d-flex align-items-center flex-column">
+          <div>
+            <div class="heading">
+              <h2 class="p-4 text-center "><b>Xiaomi Supports</b></h2>
+            </div>
+          </div>
+          <div class="row xiaomi_support_links">
+            <!-- one -->
+            <a href="#" class="col-12 col-md-6 col-lg-3">
+              <div class="support_link">
+                <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 64 64" height="50px">
+                  <path d="M 22 12 C 16.486 12 12 16.486 12 22 L 12 23 C 12 24.104 12.896 25 14 25 C 15.104 25 16 24.104 16 23 L 16 22 C 16 18.691 18.691 16 22 16 L 42 16 C 45.309 16 48 18.691 48 22 L 48 24 L 45.107422 24 C 44.213422 24 43.685313 25.003281 44.195312 25.738281 L 49.089844 32.8125 C 49.529844 33.4495 50.471109 33.4495 50.912109 32.8125 L 55.806641 25.738281 C 56.314641 25.003281 55.788531 24 54.894531 24 L 52 24 L 52 22 C 52 16.486 47.514 12 42 12 L 22 12 z M 14 30.708984 C 13.654375 30.708984 13.308391 30.869 13.087891 31.1875 L 8.1953125 38.261719 C 7.6873125 38.996719 8.2134219 40 9.1074219 40 L 12 40 L 12 42 C 12 47.514 16.486 52 22 52 L 42 52 C 47.514 52 52 47.514 52 42 L 52 41 C 52 39.896 51.104 39 50 39 C 48.896 39 48 39.896 48 41 L 48 42 C 48 45.309 45.309 48 42 48 L 22 48 C 18.691 48 16 45.309 16 42 L 16 40 L 18.892578 40 C 19.786578 40 20.314688 38.996719 19.804688 38.261719 L 14.910156 31.1875 C 14.690156 30.869 14.345625 30.708984 14 30.708984 z"/>
+                </svg>
+                <h4>Mi Exchange</h4>
+                <p>Save More&Go Green With Your Old Device</p>
+              </div>
+            </a>
+            <!-- two -->
+            <a href="#" class="col-12 col-md-6 col-lg-3">
+              <div class="support_link">
+                <svg height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><title/><g data-name="Layer 39" id="Layer_39">
+                  <path d="M26.17,6.29a17,17,0,0,1-9.62-3,1,1,0,0,0-1.13,0,17,17,0,0,1-9.59,3,1,1,0,0,0-1,1c0,8.78,4.06,17,10.59,21.42a1,1,0,0,0,1.12,0C23.1,24.31,27.17,16.1,27.17,7.29A1,1,0,0,0,26.17,6.29ZM16,26.67c-5.43-4-8.86-10.9-9.14-18.4A19,19,0,0,0,16,5.3a19,19,0,0,0,9.16,3C24.88,15.79,21.43,22.71,16,26.67Z"/></g>
+                </svg>
+                <h4>Mi Complete Protect</h4>
+                <p>Protect Your Device in Less Than 2/Day</p>
+              </div>
+            </a>
+            <!-- three -->
+            <a href="#" class="col-12 col-md-6 col-lg-3">
+              <div class="support_link">
+                <svg height="50px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                  <title/><g data-name="Layer 2" id="Layer_2">
+                    <path d="M16,29a1,1,0,0,1-.71-.29l-7.07-7a10.91,10.91,0,0,1,0-15.48,11.07,11.07,0,0,1,15.56,0,10.91,10.91,0,0,1,0,15.48l-7.07,7A1,1,0,0,1,16,29ZM16,5A9,9,0,0,0,9.63,7.62h0a8.91,8.91,0,0,0,0,12.64L16,26.59l6.37-6.33a8.91,8.91,0,0,0,0-12.64A9,9,0,0,0,16,5ZM8.93,6.91h0Z"/>
+                  <path d="M16,19a5,5,0,1,1,5-5A5,5,0,0,1,16,19Zm0-8a3,3,0,1,0,3,3A3,3,0,0,0,16,11Z"/></g><g id="frame"><rect class="cls-1"/></g>
+                </svg>
+                <h4>Service Centers</h4>
+                <p>Right Where You Need Us</p>
+              </div>
+            </a>
+            <!-- four -->
+            <a href="#" class="col-12 col-md-6 col-lg-3">
+              <div class="support_link">
+                <svg height="50px" data-name="Layer 2" id="Layer_2" viewBox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.5,34.44A3.07,3.07,0,0,1,15.89,34L9.82,30.45A14.79,14.79,0,0,1,2.25,17.7V8A3.2,3.2,0,0,1,4.34,5L16.4.57a3.2,3.2,0,0,1,2.2,0L30.66,5a3.2,3.2,0,0,1,2.09,3V17.7a14.79,14.79,0,0,1-7.57,12.75L19.11,34A3.07,3.07,0,0,1,17.5,34.44Zm0-31.56a.67.67,0,0,0-.24,0L5.2,7.33A.69.69,0,0,0,4.75,8V17.7a12.3,12.3,0,0,0,6.33,10.59l6.07,3.56a.73.73,0,0,0,.7,0l6.07-3.56h0A12.3,12.3,0,0,0,30.25,17.7V8a.69.69,0,0,0-.45-.65L17.74,2.92A.67.67,0,0,0,17.5,2.88Z"/>
+                  <path d="M16.4,22.35a1.3,1.3,0,0,1-.81-.29l-4.27-3.6a1.25,1.25,0,0,1,1.61-1.92l3.35,2.82L22,13.06a1.25,1.25,0,0,1,1.86,1.68l-6.48,7.2A1.27,1.27,0,0,1,16.4,22.35Z"/>
+                </svg>
+                <h4>Mi Extended Warranty</h4>
+                <p>Ensure Your Devices For An Extra Year At Nominal Cost</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- page five end -->
+    </main>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="d-column-flex-reverse d-lg-flex">
+          <!-- section one -->
+      <div class="ftr_content col-12 col-md-12 col-lg-9 justify-content-around d-none d-md-flex">
+        <!-- one -->
+      <ul title="Support">
+          <li><a href="#">Online Help</a></li>
+          <li><a href="#">Customer Service</a></li>
+          <li><a href="#">Shipping FAQ</a></li>
+          <li><a href="#">Warranty</a></li>
+          <li><a href="#">Mi Exchange</a></li>
+          <li><a href="#">Bulk Order</a></li>
+          <li><a href="#">User Guide</a></li>
+          <li><a href="#">Laptop Drivers</a></li>
+          <li><a href="#">Mi Screen Protect</a></li>
+          <li><a href="#">Mi Extended Warranty</a></li>
+          <li><a href="#">Mi Complete Protect</a></li>
+          <li><a href="#">Certification</a></li>
+          <li><a href="#">Service Centre</a></li>
+        </ul>  
+         <!--two  -->
+        <ul title="SHOP AND LEARN">
+          <li><a href="#">Xiaomi Phones</a></li>
+          <li><a href="#">Redmi Phones</a></li>
+          <li><a href="#">TV's</a></li>
+          <li><a href="#">Laptops and Tablets</a></li>
+          <li><a href="#">Audio</a></li>
+          <li><a href="#">Lifestyle</a></li>
+          <li><a href="#">Smart Home</a></li>
+        </ul> 
+        <!-- three -->
+        <ul title="RETAIL STORE">
+          <li><a href="#">Mi Home</a></li>
+          <li><a href="#">Mi Authorized Store</a></li>
+          <li><a href="#">Mi Store Franchise</a></li>
+        </ul>
+        <!-- four -->
+        <ul title="ABOUT US">
+          <li><a href="#">Xiaomi</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">User Agreement</a></li>
+          <li><a href="#">Integrity & Compliance</a></li>
+          <li><a href="#">CSR and Disclosures</a></li>
+          <li><a href="#">E-Waste Management</a></li>
+          <li><a href="#">In The Press</a></li>
+          <li><a href="#">Trust Center</a></li>
+          <li><a href="#">Culture</a></li>
+          <li><a href="#">Smartphone Quality</a></li>
+          <li><a href="#">TV Quality</a></li>
+          <li><a href="#">Service Quality</a></li>
+          <li><a href="#">Xiaomi HyperOS</a></li>
+          <li><a href="#">Join Our Team</a></li>
+        </ul>
+    </div>
+
+    <!-- section two -->
+    <div class=" ftr_content ftr_social_media col-12 col-lg-3 ">
+      <div class="d-block d-md-flex d-lg-block">
+        <div class="col-6">
+          <ul title="Follow Mi" class=" ">
+          <li style="display:flex; gap: 30px;">
+            <!-- twitter -->
+            <a href="#">
+              <svg fill="#000000" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="-143 145 512 512" xml:space="preserve">
+                <path d="M329,145h-432c-22.1,0-40,17.9-40,40v432c0,22.1,17.9,40,40,40h432c22.1,0,40-17.9,40-40V185C369,162.9,351.1,145,329,145z
+                M215.2,361.2c0.1,2.2,0.1,4.5,0.1,6.8c0,69.5-52.9,149.7-149.7,149.7c-29.7,0-57.4-8.7-80.6-23.6c4.1,0.5,8.3,0.7,12.6,0.7
+                c24.6,0,47.3-8.4,65.3-22.5c-23-0.4-42.5-15.6-49.1-36.5c3.2,0.6,6.5,0.9,9.9,0.9c4.8,0,9.5-0.6,13.9-1.9
+                C13.5,430-4.6,408.7-4.6,383.2v-0.6c7.1,3.9,15.2,6.3,23.8,6.6c-14.1-9.4-23.4-25.6-23.4-43.8c0-9.6,2.6-18.7,7.1-26.5
+                c26,31.9,64.7,52.8,108.4,55c-0.9-3.8-1.4-7.8-1.4-12c0-29,23.6-52.6,52.6-52.6c15.1,0,28.8,6.4,38.4,16.6
+                c12-2.4,23.2-6.7,33.4-12.8c-3.9,12.3-12.3,22.6-23.1,29.1c10.6-1.3,20.8-4.1,30.2-8.3C234.4,344.5,225.5,353.7,215.2,361.2z"/>
+              </svg>    
+            </a>
+            <!-- insta -->
+            <a href="#">
+              <svg height="25px" viewBox="0 0 32 32" id="Camada_1" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#303030;} </style> <path d="M6,2h20c2.2,0,4,1.8,4,4v20c0,2.2-1.8,4-4,4H6c-2.2,0-4-1.8-4-4V6C2,3.8,3.8,2,6,2z"></path> <g> <path class="st0" d="M21.3,9.7c-0.6,0-1.2,0.5-1.2,1.2c0,0.7,0.5,1.2,1.2,1.2c0.7,0,1.2-0.5,1.2-1.2C22.4,10.2,21.9,9.7,21.3,9.7z"></path> <path class="st0" d="M16,11.2c-2.7,0-4.9,2.2-4.9,4.9c0,2.7,2.2,4.9,4.9,4.9s4.9-2.2,4.9-4.9C21,13.4,18.8,11.2,16,11.2z M16,19.3 c-1.7,0-3.2-1.4-3.2-3.2c0-1.7,1.4-3.2,3.2-3.2c1.7,0,3.2,1.4,3.2,3.2C19.2,17.9,17.8,19.3,16,19.3z"></path> <path class="st0" d="M20,6h-8c-3.3,0-6,2.7-6,6v8c0,3.3,2.7,6,6,6h8c3.3,0,6-2.7,6-6v-8C26,8.7,23.3,6,20,6z M24.1,20 c0,2.3-1.9,4.1-4.1,4.1h-8c-2.3,0-4.1-1.9-4.1-4.1v-8c0-2.3,1.9-4.1,4.1-4.1h8c2.3,0,4.1,1.9,4.1,4.1V20z"></path> </g> </g></svg>
+            </a>
+            <!-- fb -->
+            <a href="#">
+              <svg fill="#000000" height="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+                viewBox="0 0 504 504" xml:space="preserve">
+                <g><g><path d="M377.6,0H126C56.8,0,0,56.8,0,126.4V378c0,69.2,56.8,126,126,126h251.6c69.6,0,126.4-56.8,126.4-126.4V126.4C504,56.8,447.2,0,377.6,0z M319.6,252H272v156h-60V252h-32v-64h28v-27.2c0-25.6,12.8-66,66.8-66H324V148h-34.8c-5.6,0-13.2,3.6-13.2,16v24h49.2L319.6,252z"/></g></g>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      br
+        <div class="col-6 w-100 d-flex ">
+          <ul title="Let's stay in touch ">
+            <input type="email" placeholder="Enter email address">
+        </div>
+      </div>    
+    </div>
+        </div>
+      </div>
+
+      <div class="text-secondary pt-2">
+        <p>Copyright 2010-2024 Xiaomi. All Rights Reserved</p>
+      </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
